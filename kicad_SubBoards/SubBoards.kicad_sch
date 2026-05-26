@@ -905,31 +905,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_Small"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "SamacSys:PTD904-2015Kc104"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
+			(property "Reference" "VR"
+				(at 31.75 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "R_Potentiometer_Small"
-				(at -2.54 0 90)
+			(property "Value" "PTD904-2015Kc104"
+				(at 31.75 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "PTD9042015Kc104"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/54/ptd90-777943.pdf"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer 4 Gang 100 kOhms 25 mW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -938,118 +956,300 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" "11.9"
+				(at 31.75 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Bourns"
+				(at 31.75 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "PTD904-2015Kc104"
+				(at 31.75 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
+			(property "Mouser Part Number" "652-PTD9042015KC104"
+				(at 31.75 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "R_Potentiometer_Small_0_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTD904-2015Kc104?qs=5lbl9CW7Yx%252BG%252B7znTmxxmQ%3D%3D"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 31.75 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 31.75 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PTD904-2015Kc104_1_1"
 				(rectangle
-					(start 0.762 1.8034)
-					(end -0.762 -1.8034)
+					(start 5.08 2.54)
+					(end 30.48 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Small_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "CCW_1"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "R11"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "3"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "WIPER_1"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "R12"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 0.9906)
-					(name "2"
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CW_1"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "R13"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CCW_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "WIPER_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "CW_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "CCW_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "WIPER_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "CW_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "CCW_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "WIPER_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "CW_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R43"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1057,48 +1257,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Rotary_1x8_MP"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "SamacSys:SR2612F-0112-21R0B-D8-N"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 12.7 0)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "SW_Rotary_1x8_MP"
-				(at 10.16 -10.16 0)
+			(property "Value" "SR2612F-0112-21R0B-D8-N"
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.27 0 0)
+			(property "Footprint" "SR2612F011221R0BD8N"
+				(at 19.05 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at -1.27 0 0)
+			(property "Datasheet" "https://datasheet.octopart.com/105-SR2612F-26-21RN-Alpha-Taiwan-datasheet-160895.pdf"
+				(at 19.05 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary switch 1x8, SP8T with mount point"
+			(property "Description" "Rotary Switches 1POL 12POS RND SHAFT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1107,337 +1308,72 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Rotary switch 1x8 SP8T"
-				(at 0 0 0)
+			(property "Height" "34"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "SW_Rotary_1x8_MP_0_1"
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -5.715 0)
+			(property "Mouser Part Number" "105-SR2612F-12-21RN"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.9276 0.6604) (xy -3.9116 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 6.985)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.2226 2.2225)
-					(mid -1.116 0.449)
-					(end -1.5876 -1.5875)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5876 -1.5875) (xy -1.5876 -0.6985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5876 -1.5875) (xy -1.5876 -1.5875)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5876 -1.5875) (xy -0.8256 -1.0795)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 6.35)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -6.35)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.635 4.445)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.635 -4.445)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 0.635 -7.62) (xy 0.635 -6.35) (xy -0.635 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
 			)
-			(symbol "SW_Rotary_1x8_MP_1_1"
-				(polyline
-					(pts
-						(xy -7.62 11.43) (xy 5.08 11.43) (xy 5.08 -8.89) (xy -7.62 -8.89) (xy -7.62 11.43) (xy -7.62 11.43)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR2612F-0112-21R0B-D8-N?qs=yA6kp8fx8Y7S2TB5GvzfgQ%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha (Taiwan)"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SR2612F-0112-21R0B-D8-N"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SR2612F-0112-21R0B-D8-N_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -17.78)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 10.16) (xy -3.81 10.16) (xy -3.81 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 2.54)
-					(name ""
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1453,9 +1389,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
-					(length 2.54)
-					(name ""
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1471,9 +1407,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name ""
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1489,9 +1425,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1507,9 +1443,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1525,9 +1461,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1543,9 +1479,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name ""
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1561,9 +1497,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name ""
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1578,93 +1514,143 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
 	(junction
-		(at 107.95 59.69)
+		(at 63.5 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10dc83f0-0357-483f-89fd-8482c97b4a8d")
+		(uuid "56f18b6e-3c11-45f0-9c1c-d5a0c60bd741")
 	)
 	(junction
-		(at 107.95 82.55)
+		(at 71.12 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b84fcfff-2a33-47a6-870d-ac756c2d0183")
+		(uuid "914c8376-7175-4a73-a4ca-ff17f0f4c090")
 	)
 	(junction
-		(at 107.95 74.93)
+		(at 71.12 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb193e52-2d5b-40c1-b0eb-25169da07a68")
+		(uuid "b29eb972-1337-4bc9-a387-14d18b20791f")
 	)
 	(junction
-		(at 107.95 67.31)
+		(at 63.5 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f743fa36-aa56-4116-8791-e249dca2d350")
+		(uuid "dfd7a19d-7e8a-4d55-8dc2-f73120387b9c")
 	)
 	(wire
 		(pts
-			(xy 105.41 64.77) (xy 107.95 64.77)
+			(xy 73.66 130.81) (xy 81.28 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00e90f68-aa7b-45b6-a49e-b40fc843eaf1")
+		(uuid "01f485d4-56d5-4b2c-9fff-422740e94a53")
 	)
 	(wire
 		(pts
-			(xy 107.95 72.39) (xy 107.95 74.93)
+			(xy 71.12 95.25) (xy 71.12 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02b517aa-ce96-40bd-b024-86105350d0b7")
-	)
-	(wire
-		(pts
-			(xy 114.3 74.93) (xy 119.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a08dac-ccec-4660-88f4-bd1a9e1e9f93")
-	)
-	(wire
-		(pts
-			(xy 114.3 59.69) (xy 114.3 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "064e0dba-eab3-4770-b0be-705ab4ca99ba")
-	)
-	(wire
-		(pts
-			(xy 59.69 77.47) (xy 59.69 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b0ba305-04e5-4be7-9d9c-455da1d35837")
-	)
-	(wire
-		(pts
-			(xy 105.41 85.09) (xy 119.38 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c705bbd-2f76-42f1-ac72-4dfa9480dcb7")
+		(uuid "0614897a-a966-4c9f-95e5-a25ad0f79fd1")
 	)
 	(wire
 		(pts
@@ -1678,13 +1664,43 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 59.69) (xy 114.3 59.69)
+			(xy 81.28 91.44) (xy 81.28 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f43a9d9-8ccc-4063-96e7-2c70a9f88d4d")
+		(uuid "10b1007e-d587-42e7-bd9e-4bf2e621f549")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10fa91b0-e31b-447d-a4f1-a018a4108dd8")
+	)
+	(wire
+		(pts
+			(xy 85.09 93.98) (xy 85.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18270c9a-5db3-4404-b185-e2de99ebe230")
+	)
+	(wire
+		(pts
+			(xy 83.82 119.38) (xy 85.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f1b20e-b777-471e-8cc3-c76f47c2c28e")
 	)
 	(wire
 		(pts
@@ -1698,33 +1714,43 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 74.93) (xy 111.76 74.93)
+			(xy 66.04 95.25) (xy 66.04 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26adbe0c-1828-4b2e-b98d-8c7137f9987c")
+		(uuid "2b346a07-9ce0-4149-bb3d-abda7226e70c")
 	)
 	(wire
 		(pts
-			(xy 116.84 77.47) (xy 119.38 77.47)
+			(xy 81.28 111.76) (xy 85.09 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d396c13-51c3-419a-98c6-7fcc868fe278")
+		(uuid "2b84a882-99b9-4b36-8004-136e8aea09cf")
 	)
 	(wire
 		(pts
-			(xy 105.41 72.39) (xy 107.95 72.39)
+			(xy 82.55 92.71) (xy 82.55 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d8ec08b-f6e6-4574-b043-777ef7ae011c")
+		(uuid "2c8e5819-a878-4f8f-a29b-9fc0bd77c862")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f864c1-c734-4861-8f70-7e03e9766ade")
 	)
 	(wire
 		(pts
@@ -1738,13 +1764,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 82.55) (xy 116.84 77.47)
+			(xy 63.5 134.62) (xy 85.09 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "426f6138-8274-4dfc-bde3-98898649eb5b")
+		(uuid "3dac9a9f-7d1a-444c-9095-f65e5efe4928")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442c8c9c-90d0-4b9f-9c55-d6b18695f4f9")
+	)
+	(wire
+		(pts
+			(xy 60.96 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4506b497-d533-468e-a6cc-be9cadb3f7e2")
 	)
 	(wire
 		(pts
@@ -1758,23 +1804,63 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 64.77) (xy 107.95 67.31)
+			(xy 52.07 59.69) (xy 54.61 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bc1874c-0bd8-4327-b947-bc28d3c6c731")
+		(uuid "52cb234b-3dd8-48c8-95ad-a8e38ba8b330")
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 116.84 82.55)
+			(xy 82.55 132.08) (xy 82.55 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f40fba1-b043-4bba-9366-fd4259be7636")
+		(uuid "55e09068-0454-4446-9719-8035a5c3c9ae")
+	)
+	(wire
+		(pts
+			(xy 66.04 130.81) (xy 66.04 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c9adc3-bb89-45b3-b52f-3d466a862bde")
+	)
+	(wire
+		(pts
+			(xy 82.55 109.22) (xy 85.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65221c83-e02d-4fad-a838-cd001806f14b")
+	)
+	(wire
+		(pts
+			(xy 66.04 133.35) (xy 83.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ed2d1d-239f-4937-bccf-b1715ffd643f")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b6a553-d504-4dde-a014-251d74d88f23")
 	)
 	(wire
 		(pts
@@ -1788,53 +1874,33 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 82.55) (xy 85.09 82.55)
+			(xy 77.47 77.47) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "765d855a-fef0-4157-9e57-f2fc86d116d7")
+		(uuid "70a8977a-ed4f-4340-a57d-89a684d77ecc")
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 107.95 82.55)
+			(xy 63.5 91.44) (xy 81.28 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78278871-9e87-4b8e-92c8-d6e6e91fdb96")
+		(uuid "79933576-a67c-4b8d-9bd2-dec3cbcfbd70")
 	)
 	(wire
 		(pts
-			(xy 54.61 80.01) (xy 54.61 69.85)
+			(xy 54.61 80.01) (xy 54.61 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ef90d1d-e655-4b15-b1ca-0173c7f12172")
-	)
-	(wire
-		(pts
-			(xy 119.38 85.09) (xy 119.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "815d2061-2121-4daf-8630-d2f9c88edb1e")
-	)
-	(wire
-		(pts
-			(xy 107.95 67.31) (xy 119.38 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844264df-f7a1-4394-84b6-ecb807007aa7")
 	)
 	(wire
 		(pts
@@ -1848,23 +1914,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 62.23) (xy 111.76 62.23)
+			(xy 71.12 132.08) (xy 82.55 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "966d01ef-e2f7-4e94-8205-b24aae811894")
-	)
-	(wire
-		(pts
-			(xy 107.95 57.15) (xy 107.95 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a1fd853-d008-4dd7-a1b8-870a7939b9a3")
+		(uuid "a0c962cc-3a4f-4ec0-8299-2486c8542a96")
 	)
 	(wire
 		(pts
@@ -1878,13 +1934,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 69.85) (xy 119.38 69.85)
+			(xy 71.12 130.81) (xy 71.12 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad1fe1fd-5e69-4c16-9bd7-10e8c88aa11a")
+		(uuid "a3221a41-2ee2-4e86-852d-18ac75236def")
+	)
+	(wire
+		(pts
+			(xy 81.28 130.81) (xy 81.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2d1434-6b61-45fe-892f-874066172a1a")
 	)
 	(wire
 		(pts
@@ -1908,13 +1974,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 64.77) (xy 119.38 64.77)
+			(xy 82.55 116.84) (xy 85.09 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd86780f-8077-4981-ab16-1ab755aac7e5")
+		(uuid "c1062c0c-ab4f-483a-ad89-3c6832e1deb3")
+	)
+	(wire
+		(pts
+			(xy 83.82 133.35) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6acdba-77e6-44f4-b100-ec586c969ba7")
+	)
+	(wire
+		(pts
+			(xy 66.04 92.71) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdbbf71-54df-4d63-a3cb-c1addb24b1dd")
 	)
 	(wire
 		(pts
@@ -1928,115 +2014,142 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 62.23) (xy 111.76 64.77)
+			(xy 60.96 130.81) (xy 63.5 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6b3a6c1-d538-4324-b868-96fd64767bb7")
+		(uuid "d51e8a1d-d131-4306-891f-79ed6010d597")
 	)
 	(wire
 		(pts
-			(xy 114.3 62.23) (xy 119.38 62.23)
+			(xy 73.66 95.25) (xy 83.82 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd6c4b9a-14ac-449c-8b5c-71aabb4aa4a4")
+		(uuid "d63973fc-5755-4569-b7cd-61365641e339")
 	)
 	(wire
 		(pts
-			(xy 105.41 77.47) (xy 114.3 77.47)
+			(xy 83.82 106.68) (xy 85.09 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8359c6e-67a4-4fb4-a6e8-a4a119d8a4ef")
+		(uuid "d73a277c-caaf-4d6a-b19a-10e61c90f674")
 	)
 	(wire
 		(pts
-			(xy 105.41 57.15) (xy 107.95 57.15)
+			(xy 81.28 114.3) (xy 85.09 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb0dc94c-5468-4870-89ec-92ffe1d0c845")
+		(uuid "d80444ef-1d57-4559-a213-864e4cd13fd3")
 	)
 	(wire
 		(pts
-			(xy 111.76 74.93) (xy 111.76 72.39)
+			(xy 83.82 95.25) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec06ddf3-7813-4d6b-8b49-9ac95bf8387a")
+		(uuid "daf4f406-bd57-4697-a429-50f655536c1f")
 	)
 	(wire
 		(pts
-			(xy 114.3 77.47) (xy 114.3 74.93)
+			(xy 68.58 130.81) (xy 71.12 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1564d7a-6a29-4d9f-a643-674c79684f42")
+		(uuid "e50eaa59-7fe0-4324-9197-4058e018a8a5")
 	)
 	(wire
 		(pts
-			(xy 105.41 80.01) (xy 107.95 80.01)
+			(xy 85.09 134.62) (xy 85.09 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fed95e55-0869-466a-b81a-72b0a54a0725")
+		(uuid "efcd34de-611c-4943-a69f-856bf5630bc7")
 	)
 	(wire
 		(pts
-			(xy 111.76 72.39) (xy 119.38 72.39)
+			(xy 63.5 130.81) (xy 63.5 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff5fb16e-53a5-4924-a6c0-81db3d7f857c")
+		(uuid "fe212c99-e85b-46b5-bf6a-7c1fa0b0dd8d")
+	)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed6b1ff-5077-49f9-afe7-8fe53f0e6b80")
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 105.41 67.31 0)
+		(lib_id "SamacSys:SR2612F-0112-21R0B-D8-N")
+		(at 77.47 59.69 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09eaeaf5-56a0-4093-b801-148300250694")
-		(property "Reference" "RV2"
-			(at 102.87 66.0399 0)
+		(uuid "131ce063-5b91-406a-a3ac-1d37ce351893")
+		(property "Reference" "S1"
+			(at 66.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer_Small"
-			(at 102.87 68.5799 0)
+		(property "Value" "SR2612F-0112-21R0B-D8-N"
+			(at 66.04 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys:SR2612F011221R0BD8N"
+			(at 58.42 154.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
-			(at 105.41 67.31 0)
+		(property "Datasheet" "https://datasheet.octopart.com/105-SR2612F-26-21RN-Alpha-Taiwan-datasheet-160895.pdf"
+			(at 58.42 254.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Switches 1POL 12POS RND SHAFT"
+			(at 77.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,277 +2157,271 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 67.31 0)
+		(property "Height" "34"
+			(at 58.42 454.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 105.41 67.31 0)
+		(property "Mouser Part Number" "105-SR2612F-12-21RN"
+			(at 58.42 554.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SR2612F-0112-21R0B-D8-N?qs=yA6kp8fx8Y7S2TB5GvzfgQ%3D%3D"
+			(at 58.42 654.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha (Taiwan)"
+			(at 58.42 754.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SR2612F-0112-21R0B-D8-N"
+			(at 58.42 854.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "3"
-			(uuid "0ef0270f-f194-41db-8da5-a091485216c6")
-		)
-		(pin "1"
-			(uuid "a43b1a45-e81d-4b73-a874-de04993e5442")
-		)
-		(pin "2"
-			(uuid "10b40f30-eefd-4596-ac46-10b6f861ddff")
-		)
-		(instances
-			(project ""
-				(path "/abf041be-f931-409c-8674-c74cc6e2a8c1"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 105.41 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ce347ef-c708-44d4-aaa5-5e1a70ff701f")
-		(property "Reference" "RV1"
-			(at 102.87 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Small"
-			(at 102.87 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0ef0270f-f194-41db-8da5-a091485216c7")
-		)
-		(pin "1"
-			(uuid "a43b1a45-e81d-4b73-a874-de04993e5443")
-		)
-		(pin "2"
-			(uuid "10b40f30-eefd-4596-ac46-10b6f861de00")
-		)
-		(instances
-			(project ""
-				(path "/abf041be-f931-409c-8674-c74cc6e2a8c1"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 105.41 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3547b0a7-2e7e-4bd1-ab73-70b8cf595580")
-		(property "Reference" "RV3"
-			(at 102.87 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Small"
-			(at 102.87 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
-			(at 105.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 105.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0ef0270f-f194-41db-8da5-a091485216c8")
-		)
-		(pin "1"
-			(uuid "a43b1a45-e81d-4b73-a874-de04993e5444")
-		)
-		(pin "2"
-			(uuid "10b40f30-eefd-4596-ac46-10b6f861de01")
-		)
-		(instances
-			(project ""
-				(path "/abf041be-f931-409c-8674-c74cc6e2a8c1"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Rotary_1x8_MP")
-		(at 69.85 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89f321e7-61ff-4ec2-9d2c-d8141ac78c77")
-		(property "Reference" "SW1"
-			(at 69.342 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Rotary_1x8_MP"
-			(at 68.58 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm_CircularMountingHoles"
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary switch 1x8, SP8T with mount point"
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "bd856b5b-f6fa-4ab9-9907-63567fc7a1ae")
 		)
 		(pin "6"
-			(uuid "c7df5c68-9e47-431e-bbeb-ddf2532a9a84")
-		)
-		(pin "8"
-			(uuid "d83f6484-faf7-40c0-86ad-09527be87094")
-		)
-		(pin "MP"
-			(uuid "c8cb9b41-2439-458f-bb23-6aecc0e39a06")
-		)
-		(pin "4"
-			(uuid "9ac219b1-1eed-469c-b3c2-369075b2e717")
-		)
-		(pin "1"
-			(uuid "39621b54-3e7c-47d3-a45b-f07b99eb2b4c")
-		)
-		(pin "9"
-			(uuid "df8301e2-7ef7-4195-a509-a23e0912b3ec")
-		)
-		(pin "3"
-			(uuid "7db39834-b03f-4eb6-923f-537be0d6617a")
-		)
-		(pin "2"
-			(uuid "cfb4cc2e-d7eb-4efb-bccd-e10adae9437a")
+			(uuid "e5a8ad84-0a94-48fe-94d8-dc41f3f2b91c")
 		)
 		(pin "5"
-			(uuid "e8f43093-e18f-493d-97cc-25d156dac319")
+			(uuid "3130a07e-28ea-480a-b23d-1d149fa1247d")
+		)
+		(pin "4"
+			(uuid "e903d312-1adb-47a8-8f90-9e36f393e97b")
+		)
+		(pin "1"
+			(uuid "ac2940ae-3b0d-43cd-952a-6fa272ecab21")
+		)
+		(pin "A1"
+			(uuid "bdd1d833-c54c-47ad-9148-fb4fa73c90a6")
+		)
+		(pin "2"
+			(uuid "2ffcbdb7-2b68-4248-818a-0d241d731f53")
 		)
 		(pin "7"
-			(uuid "6cb93920-6f8f-4f65-a21a-bd6edbd31ab3")
+			(uuid "303abb40-a443-4a48-b855-6a4c7ee4f194")
+		)
+		(pin "9"
+			(uuid "e903e765-12cd-4260-9b18-b3a1333554fe")
+		)
+		(pin "10"
+			(uuid "eaa49dc8-1631-42b5-a7e7-27756f4be060")
+		)
+		(pin "8"
+			(uuid "b199338b-bbc0-4dba-828b-1624137aeaf1")
+		)
+		(pin "11"
+			(uuid "4ed5c82c-e5ce-4272-85cf-0a6672ff23d4")
+		)
+		(pin "12"
+			(uuid "0296b3fc-f7d9-46d8-8525-06f7eee36466")
 		)
 		(instances
 			(project ""
 				(path "/abf041be-f931-409c-8674-c74cc6e2a8c1"
-					(reference "SW1")
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:PTD904-2015Kc104")
+		(at 60.96 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66018c82-6e41-4d08-9b44-a09acfcfedb5")
+		(property "Reference" "VR1"
+			(at 57.15 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTD904-2015Kc104"
+			(at 57.15 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys:PTD9042015Kc104"
+			(at 155.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/ptd90-777943.pdf"
+			(at 255.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer 4 Gang 100 kOhms 25 mW"
+			(at 60.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.9"
+			(at 455.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 555.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTD904-2015Kc104"
+			(at 655.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTD9042015KC104"
+			(at 755.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTD904-2015Kc104?qs=5lbl9CW7Yx%252BG%252B7znTmxxmQ%3D%3D"
+			(at 855.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 955.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1055.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "R41"
+			(uuid "53d75712-185a-4c7c-9e4b-6088bf8c1e15")
+		)
+		(pin "R33"
+			(uuid "fb8ce1e7-4315-4a34-af50-e8982981ab14")
+		)
+		(pin "R12"
+			(uuid "5d979bfb-8be2-4699-9c7f-6041a7b2612d")
+		)
+		(pin "R22"
+			(uuid "fa7ef624-91d1-4991-a8e6-e21597da1d12")
+		)
+		(pin "R21"
+			(uuid "83b97038-586e-4405-b81a-d4a04b6d2d10")
+		)
+		(pin "R13"
+			(uuid "6d50b8c0-3af3-41ff-88ba-cbde722e9f5b")
+		)
+		(pin "R11"
+			(uuid "093c81ba-31af-4957-ba4e-b2afbc372dde")
+		)
+		(pin "R42"
+			(uuid "bf8d04ce-a622-4d01-a9a1-da4a83c0efac")
+		)
+		(pin "R43"
+			(uuid "8c98ad37-ee7f-4012-8d03-a089cf734b43")
+		)
+		(pin "R31"
+			(uuid "4ac28212-feb3-4f99-b3d5-3a266c8efe6d")
+		)
+		(pin "R32"
+			(uuid "347193ca-b050-4e80-a308-771aac7dfec0")
+		)
+		(pin "R23"
+			(uuid "c19758b6-d85b-48c0-b8be-370c5dcd0f9f")
+		)
+		(instances
+			(project ""
+				(path "/abf041be-f931-409c-8674-c74cc6e2a8c1"
+					(reference "VR1")
 					(unit 1)
 				)
 			)
@@ -2417,82 +2524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 105.41 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b36e5f8d-c7fc-4f6d-8149-0afc2e424582")
-		(property "Reference" "RV4"
-			(at 102.87 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Small"
-			(at 102.87 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
-			(at 105.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 105.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0ef0270f-f194-41db-8da5-a091485216c9")
-		)
-		(pin "1"
-			(uuid "a43b1a45-e81d-4b73-a874-de04993e5445")
-		)
-		(pin "2"
-			(uuid "10b40f30-eefd-4596-ac46-10b6f861de02")
-		)
-		(instances
-			(project ""
-				(path "/abf041be-f931-409c-8674-c74cc6e2a8c1"
-					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 124.46 69.85 0)
+		(at 90.17 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2502,7 +2535,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7a7c844-d5a0-47c4-9fcd-1b62c06434fb")
 		(property "Reference" "J2"
-			(at 125.73 69.8499 0)
+			(at 91.44 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2544,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 125.73 72.3899 0)
+			(at 91.44 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2554,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
-			(at 124.46 69.85 0)
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 69.85 0)
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2572,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 124.46 69.85 0)
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2605,7 @@
 			(uuid "2cb3a182-bf5e-4658-bffa-4e5a3bf60307")
 		)
 		(instances
-			(project ""
+			(project "SubBoards"
 				(path "/abf041be-f931-409c-8674-c74cc6e2a8c1"
 					(reference "J2")
 					(unit 1)
